@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header>
+    <header className="bg-clr-primary">
       <img src="" alt="" />
       <p>DigiCat</p>
       <p>Register</p>

@@ -1,4 +1,4 @@
 header {
-    background-image: red;
     display: flex;
+    background-color: var(--clr-bg-primary);
 }
