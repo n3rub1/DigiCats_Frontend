@@ -1,4 +1,6 @@
 header {
     display: flex;
     background-color: var(--clr-bg-primary);
+    height: 100%;
 }
+

@@ -5,8 +5,10 @@ export default function Header() {
     <header className="bg-clr-primary">
       <img src="" alt="" />
       <p>DigiCat</p>
-      <p>Register</p>
-      <p>Log In</p>
+      <div className="">
+        <p>Register</p>
+        <p>Log In</p>
+      </div>
     </header>
   );
 }

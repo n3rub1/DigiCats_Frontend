@@ -10,12 +10,16 @@
   --ff-primary: "'Poppins', sans-serif";
 }
 
-.root {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font: inherit;
   font-family: var(--ff-primary);
+}
+
+body {
+  height: 100vh;
 }
 
 img,
@@ -25,7 +29,7 @@ svg {
   display: block;
 }
 
-html,
-body {
+#__next {
   height: 100%;
 }
+
