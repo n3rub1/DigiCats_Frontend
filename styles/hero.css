@@ -18,10 +18,39 @@
   top: 55%;
   left: 55%;
   font-style: italic;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeInRight;
 }
 
 .hero-image {
   max-width: 600px;
-  border-radius: 2rem;
+  border-radius: 1rem;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeInLeft;
+
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
