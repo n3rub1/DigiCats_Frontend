@@ -8,7 +8,7 @@ export default function MainContent() {
         <h1>Sponser A Cat</h1>
         <p>View all</p>
       </div>
-      <Carousel cols={3} rows={1} gap={10} autoplay={1000} >
+      <Carousel cols={3} rows={1} gap={10} autoplay={5000} >
         <Carousel.Item>
           <img width="100%" src="https://picsum.photos/800/600?random=1" />
         </Carousel.Item>

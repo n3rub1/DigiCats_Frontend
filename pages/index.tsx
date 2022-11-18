@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Footer />
       <Hero />
       <MainContent />
+      <Footer />
     </>
   );
 }
