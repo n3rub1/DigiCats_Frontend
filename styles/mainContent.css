@@ -1,0 +1,36 @@
+.mainContent_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+
+.mainContent_header h1 {
+  padding-top: 1rem;
+  padding-left: 7.2rem;
+  font-size: 1.5rem;
+}
+
+.mainContent_header p {
+  color: var(--clr-text-primary);
+  padding: 1rem 2rem;
+  margin-right : 7.2rem;
+  background-color: var(--clr-bg-primary);
+  border-radius: 0.5rem;
+}
+
+.mainContent_header p:hover {
+    background-color: blue;
+  }
+
+.carousel_img {
+  width: 500px;
+  height: 350px;
+}
+
+.mainContent_header {
+}
+
+.carousel_container {
+  padding: 0 8rem;
+}
