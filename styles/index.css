@@ -7,8 +7,8 @@
   --clr-text-primary: #ffffff;
   --clr-text-secondary: #23252C;
 
-  --ff-primary: "'Poppins', sans-serif";
-  --fs-primary: 1.2rem;
+  --ff-primary: "Poppins", sans-serif;
+  --fs-primary: 1.1rem;
 }
 
 * {
