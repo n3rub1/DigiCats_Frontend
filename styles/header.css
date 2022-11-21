@@ -18,10 +18,20 @@ header {
 }
 
 .left_header p {
-    align-self: center;
+  align-self: center;
 }
 
 .right_header {
   display: flex;
   gap: 1.5rem;
+}
+
+.register-header {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.login-header {
+  cursor: pointer;
 }

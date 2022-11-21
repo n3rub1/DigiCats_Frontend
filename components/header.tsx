@@ -14,8 +14,10 @@ export default function Header() {
         <p>Digicats</p>
       </div>
       <div className="right_header">
-        <p>Register</p>
-        <p>Log In</p>
+        <a href="\" className="register-header">Home</a>
+        <a href="Register" className="register-header">About Us</a>
+        <a href="Register" className="register-header">Register</a>
+        <p className="login-header">Log In</p>
       </div>
     </header>
   );

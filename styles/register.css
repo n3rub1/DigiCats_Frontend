@@ -1,0 +1,68 @@
+#__next {
+    background-color: #1A1B21;
+    color: white;
+}
+
+.top-register {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto 0 auto;
+    max-width: 80%;
+}
+
+.right-register {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    border: 1px solid pink
+}
+
+.left-register {
+    padding: 3rem;
+    max-height: 200px;
+    max-width: 60%;
+}
+
+.title-register {
+    font-size: 50px;
+    animation: 1.5s anim-lineUp ease-out;
+}
+
+.para-register {
+    animation: 1.5s anim-lineUp ease-out;
+}
+
+.input-field {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+
+.registerButton {
+    background-color: #1A1B21;
+    color: white;
+    padding: 0.5rem;
+    width: 20rem;
+    margin: 0.2rem
+}
+
+.registerButton:hover {
+    background-color: white;
+    color: #1A1B21;
+    cursor: pointer;
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
